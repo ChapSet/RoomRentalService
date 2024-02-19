@@ -4,11 +4,11 @@ select_action = InlineKeyboardMarkup(inline_keyboard=[
     [
         InlineKeyboardButton(
             text='Забронировать товар',
-            callback_data='бронь'
+            callback_data='booking'
         ),
         InlineKeyboardButton(
             text='Выбрать набор',
-            callback_data='набор'
+            callback_data='pick_pack'
         )
     ]
 ])
